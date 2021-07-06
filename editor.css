@@ -1,0 +1,66 @@
+#title{
+    color: rgb(194, 26, 26);
+    text-align: center;
+    background: gold;
+}
+main{
+    text-align: center;
+}
+#text{
+    color:blue;
+    width: 40%;
+    height: 380px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    border: 2px solid gold;
+    min-width: 80% !important;
+}
+#Run{
+    color: white;
+    background:black;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    position: relative;
+    left: 5px;
+}
+#Run:focus{
+    background:rgb(56, 56, 56);
+}
+#Delet{
+    color: white;
+    background: rgb(236, 46, 13);
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    position: relative;
+    right: 5px;
+}
+#Delet:focus{
+    background-color: rgb(255, 71, 71);
+}
+#buttons{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#res{
+    text-align: center;
+    background:gold;
+    width: 100%;
+    color: rgb(194, 26, 26);
+    font-size: 20px;
+    padding-top: 4px;
+    /* position: relative;
+    left: 406px; */
+}
+#result{
+    max-width: 100% !important;
+    text-align: center;
+}
